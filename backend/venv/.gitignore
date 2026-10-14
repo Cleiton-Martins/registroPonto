@@ -1,0 +1,43 @@
+# =========================
+# Python / Backend
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes Virtuais
+venv/
+env/
+.venv/
+
+# Variáveis de Ambiente
+.env
+
+# =========================
+# Banco de Dados e Arquivos Locais (Específico do Projeto)
+# =========================
+*.db
+*.sqlite3
+ponto.db
+db_rostos/
+temp.jpg
+
+# =========================
+# Node.js / React (Frontend)
+# =========================
+node_modules/
+dist/
+build/
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# SO e Editores (IDEs)
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
