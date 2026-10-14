@@ -1,24 +1,22 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# =========================
+# Backend (Python)
+# =========================
+backend/venv/
+backend/__pycache__/
+backend/db_rostos/
+backend/ponto.db
+backend/temp.jpg
+*.pyc
 
-node_modules
-dist
-dist-ssr
-*.local
+# =========================
+# Frontend (React/Vite)
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# =========================
+# SO e Editores
+# =========================
+.vscode/
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
